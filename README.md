@@ -1,5 +1,7 @@
 # SatData Solutions
 
+**Por [Kamil Slodki](https://www.linkedin.com/in/kamilslodki/)** · Valencia, España · Remote-first
+
 **AI Systems Engineer · Production LLM + B2B Delivery Engineering. Sistemas AI / Data / Automation diseñados y operados en producción real para clientes B2B con disciplina institucional: 5 protocolos de ingeniería propios + 5 capas documentales replicadas cross-proyecto (arc42 + C4 + ADR + runbooks + postmortems) + engineering-playbook propio con 60+ archivos doctrinales evolucionados desde incidentes reales. 13+ proyectos privados, 5 showcases públicos cubriendo SaaS B2B compliance fiscal en producción AEAT, agentes LLM con guardrails, pipelines NLP con explicabilidad como invariante, sistemas cuantitativos multi-modelo y entregas iPaaS lead-to-onboarding bajo NDA.**
 
 [![Role](https://img.shields.io/badge/role-AI%20Systems%20Engineer%20%C2%B7%20Production%20LLM-blueviolet.svg)](#contacto)
@@ -8,6 +10,8 @@
 [![Engineering Doctrine](https://img.shields.io/badge/engineering%20doctrine-5%20protocols%20%C2%B7%2060%2B%20files-9cf.svg)](#sistema-operativo-com%C3%BAn)
 [![Documentation](https://img.shields.io/badge/documentation-arc42%20%C2%B7%20C4%20%C2%B7%20ADR%20%C2%B7%20runbooks%20%C2%B7%20postmortems-orange.svg)](#sistema-documental-replicado)
 [![Status](https://img.shields.io/badge/status-disponible%20para%20founding%20%2F%20staff%20AI%20%2F%20fractional%20CTO-brightgreen.svg)](#contacto)
+
+<sub>Última actualización: 2026-05-18</sub>
 
 <table>
 <tr>
@@ -20,6 +24,15 @@
 > **Para founding / staff AI roles** — 6 agentes LLM en producción con prompt engineering propio (required/optional/exclusion keywords + patterns regex + confidence scoring + anti-echo + whitelist + schema JSON validation), pipelines NLP rule-based con 6 gates de validación, sistemas cuantitativos multi-modelo (LSTM + TCN + XGBoost + PPO), observabilidad funcional con E2E canaries, audit log JSONL append-only. Engineering-playbook propio con 60+ archivos doctrinales cross-proyecto.
 >
 > **Para clientes B2B / fractional CTO** — SaaS B2B compliance fiscal multi-tenant en producción real contra AEAT (RD 1007/2023), case-studies de delivery completo lead-to-onboarding con idempotencia SHA-based cross-gateway, defensas GDPR triple-AND, audit trail criptográfico, signature service + reconciliación bidireccional. Disciplina institucional con ADRs versionadas, runbooks operativos, postmortems formales.
+
+---
+
+## Cómo navegar este portfolio
+
+- **Si vienes por una posición founding engineer / staff AI** → empieza por [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) (6 LLM agents en producción con guardrails) o [`acc-narrativa-showcase`](https://github.com/KamilSlodki/acc-narrativa-showcase) (pipeline NLP rule-based con rigor metodológico). Después la sección [Track A](#track-a--ai-systems--production-llm) tiene los 4 showcases del track.
+- **Si buscas consultoría B2B / fractional CTO** → empieza por [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) (SaaS B2B propio en producción AEAT real) o [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) (delivery completo lead-to-onboarding bajo NDA). La sección [Track B](#track-b--b2b-delivery-engineering) tiene los 3 del track.
+- **Si quieres entender la disciplina cross-proyecto** que conecta los 5 showcases → [Sistema operativo común](#sistema-operativo-común): 5 protocolos de ingeniería + 5 capas documentales + engineering-playbook propio.
+- **Si vas con prisa** → escribe directamente a `solutions.satdata@gmail.com`.
 
 ---
 
