@@ -2,11 +2,11 @@
 
 **Por [Kamil Slodki](https://www.linkedin.com/in/kamilslodki/)** · Valencia, España · Remote-first
 
-**AI Systems Engineer · Production LLM + B2B Delivery Engineering. Sistemas AI / Data / Automation diseñados y operados en producción real para clientes B2B con disciplina institucional: 5 protocolos de ingeniería propios + 5 capas documentales replicadas cross-proyecto (arc42 + C4 + ADR + runbooks + postmortems) + engineering-playbook propio con 60+ archivos doctrinales evolucionados desde incidentes reales. 13+ proyectos privados, 9 showcases públicos cubriendo SaaS B2B compliance fiscal en producción AEAT, agentes LLM con guardrails, pipelines NLP con explicabilidad como invariante, sistemas cuantitativos multi-modelo, voice AI conversacional con SIP BYOC, plataformas dual-channel con LLM multimodal y autoevaluación regulada con structured outputs.**
+**AI Systems Engineer · Production LLM + B2B Delivery Engineering. Sistemas AI / Data / Automation diseñados y operados en producción real para clientes B2B con disciplina institucional: 5 protocolos de ingeniería propios + 5 capas documentales replicadas cross-proyecto (arc42 + C4 + ADR + runbooks + postmortems) + engineering-playbook propio con 60+ archivos doctrinales evolucionados desde incidentes reales. 13+ proyectos privados, 10 showcases públicos cubriendo SaaS B2B compliance fiscal en producción AEAT, agentes LLM con guardrails, pipelines NLP con explicabilidad como invariante, sistemas cuantitativos multi-modelo, voice AI conversacional con SIP BYOC, plataformas dual-channel con LLM multimodal y autoevaluación regulada con structured outputs.**
 
 [![Role](https://img.shields.io/badge/role-AI%20Systems%20Engineer%20%C2%B7%20Production%20LLM-blueviolet.svg)](#contacto)
 [![Track](https://img.shields.io/badge/tracks-A%20%C2%B7%20founding%2Fstaff%20AI%20%E2%80%A2%20B%20%C2%B7%20B2B%20fractional%20CTO-blue.svg)](#tracks-target)
-[![Showcases](https://img.shields.io/badge/showcases-9%20p%C3%BAblicos%20%C2%B7%2013%2B%20proyectos%20privados-success.svg)](#showcases)
+[![Showcases](https://img.shields.io/badge/showcases-10%20p%C3%BAblicos%20%C2%B7%2013%2B%20proyectos%20privados-success.svg)](#showcases)
 [![Engineering Doctrine](https://img.shields.io/badge/engineering%20doctrine-5%20protocols%20%C2%B7%2060%2B%20files-9cf.svg)](#sistema-operativo-com%C3%BAn)
 [![Documentation](https://img.shields.io/badge/documentation-arc42%20%C2%B7%20C4%20%C2%B7%20ADR%20%C2%B7%20runbooks%20%C2%B7%20postmortems-orange.svg)](#sistema-documental-replicado)
 [![Status](https://img.shields.io/badge/status-disponible%20para%20founding%20%2F%20staff%20AI%20%2F%20fractional%20CTO-brightgreen.svg)](#contacto)
@@ -17,7 +17,7 @@
 <tr>
 <td align="center" width="33%"><sub>SISTEMA OPERATIVO DOCTRINAL</sub><br/><b>5 protocolos · 5 capas documentales</b><br/><sub>replicados cross-proyecto · evolucionados desde incidentes reales</sub></td>
 <td align="center" width="33%"><sub>LLM EN PRODUCCIÓN REAL</sub><br/><b>Voice agents · text extraction · structured outputs</b><br/><sub>6 LLM agents iPaaS · 2 motores voice AI · LLM multimodal text+audio · graceful fallback patterns</sub></td>
-<td align="center" width="33%"><sub>DELIVERY VERIFICABLE</sub><br/><b>9 showcases públicos · 13+ proyectos privados</b><br/><sub>6 case-studies cliente anonimizados bajo NDA · 3 productos propios</sub></td>
+<td align="center" width="33%"><sub>DELIVERY VERIFICABLE</sub><br/><b>10 showcases públicos · 13+ proyectos privados</b><br/><sub>7 case-studies cliente anonimizados bajo NDA · 3 productos propios</sub></td>
 </tr>
 </table>
 
@@ -65,6 +65,7 @@ Sistemas donde el componente AI (LLM, NLP, ML) es protagonista de la arquitectur
 | [`futuros-showcase`](https://github.com/KamilSlodki/futuros-showcase) | Pipeline cuantitativo end-to-end multi-modelo (LSTM advanced + TCN + XGBoost + PPO con ensemble + meta-agent RL) · walk-forward + embargo + purge · 9 subsistemas de confluence VETO/VOTE · safety gates + kill-switches. 40+ ADRs · 7 SLOs formales. | LSTM · TCN · XGBoost · PPO | Paper trading · research paused |
 | [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) | SaaS B2B multi-tenant de compliance fiscal con OCR multi-backend (confianza ≥ 96 %) + verificación QR doble (AEAT + Stripe) + audit trail criptográfico. | FastAPI · React · PostgreSQL | Producción AEAT real |
 | [`regulated-document-intake-platform-case-study`](https://github.com/KamilSlodki/regulated-document-intake-platform-case-study) | Plataforma SaaS B2B de automatización de procesos empresariales con captura documental multimodal + OCR engineering resiliente (claim atómico SQL + watchdog APScheduler + semáforo per-worker · 1 service por tipo de documento) + cross-validation automática + PII encryption Fernet + blind index SHA256 para exact-match sin desencriptar. 17 invariantes documentadas + Threat Model STRIDE + Disaster Recovery RTO 4-8h. | FastAPI · React 19 · PostgreSQL · Tesseract · Fernet · APScheduler | En producción · workflow visual activo |
+| [`business-intelligence-platform-with-llm-tools-case-study`](https://github.com/KamilSlodki/business-intelligence-platform-with-llm-tools-case-study) | LLM agent en producción con catálogo cerrado de 13 tools tipadas Pydantic (sin SQL libre · BD aislada read-only · statement timeout) + anti-hallucination con tool dedicada para agregados + cost engineering por tier de LLM. Dashboard analytics multi-fuente complementario con masking PII inline + autorización app-level. Aislamiento absoluto entre subsistemas del mismo cliente. | FastAPI · Postgres · Next.js · ECharts · LLM tiered | LLM agent producción · dashboard MVP activo |
 
 → **Available for founding engineer / staff AI roles** — `solutions.satdata@gmail.com` · [LinkedIn](https://www.linkedin.com/in/kamilslodki/)
 
@@ -80,6 +81,7 @@ Casos donde la entrega completa a cliente B2B real es el centro: delivery cerrad
 | [`conversational-voice-ai-platform-case-study`](https://github.com/KamilSlodki/conversational-voice-ai-platform-case-study) | Case-study de delivery a operador BPO de contact center con clientes B2C · Fase 1 en producción 50+ días sin incidente · Fase 2 en staging con 2 119 tests verdes · multi-tenant sobre VPS heredado del cliente · 32 ADRs versionadas · 6 headers HTTP de seguridad OWASP A5. | BPO contact center con clientes B2C (anonimizado) | Fase 1 producción · Fase 2 staging |
 | [`inmo-data-case-study`](https://github.com/KamilSlodki/inmo-data-case-study) | Pipeline ETL robusto con anti-bot mitigation comercial multi-señal · multi-worker concurrente con work partitioning · normalización heterogénea · enriquecimiento semántico vía LLM · respectful pacing con scope GDPR-aware. | Inmobiliario (anonimizado) | Delivered · archived |
 | [`regulated-document-intake-platform-case-study`](https://github.com/KamilSlodki/regulated-document-intake-platform-case-study) | Case-study de delivery completo a operador B2B con workflow administrativo regulado por rol: sistema reemplazando proceso manual basado en mensajería instantánea + Excel por automation visual end-to-end con OCR + cross-validation + e-signature + notificaciones · 11 ADRs versionadas · 6 auditorías profundas con score 9.6/10 · arc42 completo · Disaster Recovery probado en drills · sistema multi-tenant con múltiples perfiles configurables · integración OAuth2 a shared drive del cliente downstream. | Servicios profesionales B2B (anonimizado) | En producción · workflow visual activo |
+| [`business-intelligence-platform-with-llm-tools-case-study`](https://github.com/KamilSlodki/business-intelligence-platform-with-llm-tools-case-study) | Case-study de delivery completo a operador B2B con plataforma BI multi-fuente: dashboard analytics interactivo + LLM agent conversacional vía mensajería instantánea · 11 ADRs versionadas + 6 documentos de seguridad + threat model · Stage-Gate Pre-dev/Post-dev protocol · regresión SQL semántica en CI · aislamiento absoluto entre subsistemas (BD users separados · containers independientes · secrets aislados) · autorización app-level con allowlist canónica · audit log append-only. | Operador B2B multi-fuente (anonimizado) | En producción · BI agent activo |
 
 → **Available for B2B consulting / fractional CTO engagements** — `solutions.satdata@gmail.com` · [LinkedIn](https://www.linkedin.com/in/kamilslodki/)
 
@@ -87,7 +89,7 @@ Casos donde la entrega completa a cliente B2B real es el centro: delivery cerrad
 
 ## Sistema operativo común
 
-Los 9 showcases comparten un mismo sistema operativo de ingeniería, replicado y evolucionado cross-proyecto a lo largo de 13+ proyectos del ecosistema. La documentación es **activo de primera clase, no afterthought**.
+Los 10 showcases comparten un mismo sistema operativo de ingeniería, replicado y evolucionado cross-proyecto a lo largo de 13+ proyectos del ecosistema. La documentación es **activo de primera clase, no afterthought**.
 
 ### 5 protocolos de ingeniería
 
