@@ -87,7 +87,7 @@ Casos donde la entrega completa a cliente B2B real es el centro: delivery cerrad
 
 ## Sistema operativo común
 
-Los 8 showcases comparten un mismo sistema operativo de ingeniería, replicado y evolucionado cross-proyecto a lo largo de 13+ proyectos del ecosistema. La documentación es **activo de primera clase, no afterthought**.
+Los 9 showcases comparten un mismo sistema operativo de ingeniería, replicado y evolucionado cross-proyecto a lo largo de 13+ proyectos del ecosistema. La documentación es **activo de primera clase, no afterthought**.
 
 ### 5 protocolos de ingeniería
 
