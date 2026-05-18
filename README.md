@@ -32,7 +32,6 @@ Este portfolio agrupa los showcases en dos tracks claramente diferenciados. Un p
 | **Target** | Founding engineer · Staff AI engineer · AI Platform Engineer · Solution Architect AI | Fractional CTO · Consultoría B2B alto-ticket · Retainers AI/Automation |
 | **Compañía tipo** | Startups AI internacionales (YC · Series A-B · AI infra · agentic AI · AI operations) | Clientes B2B sectoriales · PYMEs con producto digital · scale-ups |
 | **Modalidad** | Remote · full-time + equity | Retainer mensual · day-rate · proyectos cerrados |
-| **Rangos** | 90-180 k€ + equity | 8-20 k€/mes retainer · 600-1 500 €/día |
 | **Vocabulario** | LLM en producción · agents · guardrails · RAG · evals · observability LLM · MLOps | Delivery · SLA · GDPR/LOPDGDD · audit trail · runbooks · ROI operativo |
 
 ---
@@ -43,12 +42,12 @@ Este portfolio agrupa los showcases en dos tracks claramente diferenciados. Un p
 
 Sistemas donde el componente AI (LLM, NLP, ML) es protagonista de la arquitectura y opera en producción con guardrails reales.
 
-| Showcase | Resumen | Stack visible | Estado | Rol en track |
-|---|---|---|---|:---:|
-| [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) | 6 agentes LLM en producción con prompt engineering propio (whitelist anti-hallucination · schema JSON · anti-echo · confidence scoring) + post-call LLM analyzer (transcripción → 12 campos clasificados). Audit log JSONL append-only · observabilidad funcional. | iPaaS · LLM · WhatsApp Business · CRM B2B · Multi-Gateway | Delivered · production | Primario A (también B) |
-| [`acc-narrativa-showcase`](https://github.com/KamilSlodki/acc-narrativa-showcase) | Pipeline rule-based de signals narrativos sobre equity US · clasificador determinista de 18 tipos de evento · 6 gates de validación de evidencia · Risk Layer con Kelly sizing · explicabilidad como invariante (cero LLM en pipeline de decisión). 26 ADRs · 389 tests passing. | FastAPI · Prefect · spaCy · K8s + HPA | Research mode · discovery | Primario A |
-| [`futuros-showcase`](https://github.com/KamilSlodki/futuros-showcase) | Pipeline cuantitativo end-to-end multi-modelo (LSTM advanced + TCN + XGBoost + PPO con ensemble + meta-agent RL) · walk-forward + embargo + purge · 9 subsistemas de confluence VETO/VOTE · safety gates + kill-switches. 40+ ADRs · 7 SLOs formales. | LSTM · TCN · XGBoost · PPO | Paper trading · research paused | Primario A |
-| [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) | SaaS B2B multi-tenant de compliance fiscal con OCR multi-backend (confianza ≥ 96 %) + verificación QR doble (AEAT + Stripe) + audit trail criptográfico. | FastAPI · React · PostgreSQL | Producción AEAT real | Secundario A (primario B) |
+| Showcase | Resumen | Stack visible | Estado |
+|---|---|---|---|
+| [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) | 6 agentes LLM en producción con prompt engineering propio (whitelist anti-hallucination · schema JSON · anti-echo · confidence scoring) + post-call LLM analyzer (transcripción → 12 campos clasificados). Audit log JSONL append-only · observabilidad funcional. | iPaaS · LLM · WhatsApp Business · CRM B2B · Multi-Gateway | Delivered · production |
+| [`acc-narrativa-showcase`](https://github.com/KamilSlodki/acc-narrativa-showcase) | Pipeline rule-based de signals narrativos sobre equity US · clasificador determinista de 18 tipos de evento · 6 gates de validación de evidencia · Risk Layer con Kelly sizing · explicabilidad como invariante (cero LLM en pipeline de decisión). 26 ADRs · 389 tests passing. | FastAPI · Prefect · spaCy · K8s + HPA | Research mode · discovery |
+| [`futuros-showcase`](https://github.com/KamilSlodki/futuros-showcase) | Pipeline cuantitativo end-to-end multi-modelo (LSTM advanced + TCN + XGBoost + PPO con ensemble + meta-agent RL) · walk-forward + embargo + purge · 9 subsistemas de confluence VETO/VOTE · safety gates + kill-switches. 40+ ADRs · 7 SLOs formales. | LSTM · TCN · XGBoost · PPO | Paper trading · research paused |
+| [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) | SaaS B2B multi-tenant de compliance fiscal con OCR multi-backend (confianza ≥ 96 %) + verificación QR doble (AEAT + Stripe) + audit trail criptográfico. | FastAPI · React · PostgreSQL | Producción AEAT real |
 
 → **Available for founding engineer / staff AI roles** — `solutions.satdata@gmail.com` · [LinkedIn](https://www.linkedin.com/in/kamilslodki/)
 
@@ -56,11 +55,11 @@ Sistemas donde el componente AI (LLM, NLP, ML) es protagonista de la arquitectur
 
 Casos donde la entrega completa a cliente B2B real es el centro: delivery cerrado · compliance · runbooks · postmortems · trazabilidad operativa.
 
-| Showcase | Resumen | Sector | Estado | Rol en track |
-|---|---|---|---|:---:|
-| [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) | Sistema SaaS multi-tenant de compliance fiscal con doble QR (AEAT + Stripe), audit trail criptográfico append-only, FSM de inmutabilidad fiscal y observabilidad propia con Guardian custom. Producción real contra AEAT bajo RD 1007/2023. 82 ADRs · 4 000+ tests · 0 fugas cross-tenant. | Fiscal · SaaS B2B | Producción real | Primario B (secundario A) |
-| [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) | Case-study de delivery completo lead-to-onboarding · 9+ escenarios iPaaS · finance multi-gateway con idempotencia SHA-based cross-gateway · GDPR triple-AND scheduler-based · signature service + reconciliación bidireccional CRM-banca · 6 runbooks operativos. | B2B genérico (anonimizado) | Delivered · production | Primario B (también A) |
-| [`inmo-data-case-study`](https://github.com/KamilSlodki/inmo-data-case-study) | Pipeline ETL robusto con anti-bot mitigation comercial multi-señal · multi-worker concurrente con work partitioning · normalización heterogénea · enriquecimiento semántico vía LLM · respectful pacing con scope GDPR-aware. | Inmobiliario (anonimizado) | Delivered · archived | Primario B |
+| Showcase | Resumen | Sector | Estado |
+|---|---|---|---|
+| [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) | Sistema SaaS multi-tenant de compliance fiscal con doble QR (AEAT + Stripe), audit trail criptográfico append-only, FSM de inmutabilidad fiscal y observabilidad propia con Guardian custom. Producción real contra AEAT bajo RD 1007/2023. 82 ADRs · 4 000+ tests · 0 fugas cross-tenant. | Fiscal · SaaS B2B | Producción real |
+| [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) | Case-study de delivery completo lead-to-onboarding · 9+ escenarios iPaaS · finance multi-gateway con idempotencia SHA-based cross-gateway · GDPR triple-AND scheduler-based · signature service + reconciliación bidireccional CRM-banca · 6 runbooks operativos. | B2B genérico (anonimizado) | Delivered · production |
+| [`inmo-data-case-study`](https://github.com/KamilSlodki/inmo-data-case-study) | Pipeline ETL robusto con anti-bot mitigation comercial multi-señal · multi-worker concurrente con work partitioning · normalización heterogénea · enriquecimiento semántico vía LLM · respectful pacing con scope GDPR-aware. | Inmobiliario (anonimizado) | Delivered · archived |
 
 → **Available for B2B consulting / fractional CTO engagements** — `solutions.satdata@gmail.com` · [LinkedIn](https://www.linkedin.com/in/kamilslodki/)
 
@@ -118,7 +117,7 @@ Builder senior AI / Data / Automation con stack que cubre desde **NLP rule-based
 
 **Disponibilidad declarada (2026)**:
 
-- **Founding / staff AI engineer · AI Platform Engineer · Solution Architect AI** — remote · 90-180 k€ + equity. Track A.
-- **Fractional CTO · B2B consulting · retainers AI/Automation** — retainer 8-20 k€/mes · day-rate 600-1 500 € · proyectos cerrados 25-80 k€. Track B.
+- **Founding / staff AI engineer · AI Platform Engineer · Solution Architect AI** — remote · full-time + equity. Track A.
+- **Fractional CTO · B2B consulting · retainers AI/Automation** — retainer mensual · day-rate · proyectos cerrados. Track B.
 
-Para consultas técnicas concretas o briefings de proyecto, escribir directamente al email comercial.
+Para consultas técnicas concretas, briefings de proyecto o detalles de compensación, escribir directamente al email comercial.
