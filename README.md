@@ -29,9 +29,9 @@
 
 ## Cómo navegar este portfolio
 
-- **Si vienes por una posición founding engineer / staff AI** → empieza por [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) (6 LLM agents en producción con guardrails) o [`regulated-self-assessment-platform-case-study`](https://github.com/KamilSlodki/regulated-self-assessment-platform-case-study) (LLM con structured outputs + graceful fallback patterns). Después la sección [Track A](#track-a--ai-systems--production-llm) tiene los 7 showcases del track.
-- **Si buscas consultoría B2B / fractional CTO** → empieza por [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) (SaaS B2B propio en producción AEAT real) o [`multichannel-inspection-tracking-case-study`](https://github.com/KamilSlodki/multichannel-inspection-tracking-case-study) (dual-channel email+WhatsApp con LLM multimodal). La sección [Track B](#track-b--b2b-delivery-engineering) tiene los 5 del track.
-- **Si quieres entender la disciplina cross-proyecto** que conecta los 8 showcases → [Sistema operativo común](#sistema-operativo-común): 5 protocolos de ingeniería + 5 capas documentales + engineering-playbook propio.
+- **Si vienes por una posición founding engineer / staff AI** → empieza por [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) (6 LLM agents en producción con guardrails) o [`regulated-self-assessment-platform-case-study`](https://github.com/KamilSlodki/regulated-self-assessment-platform-case-study) (LLM con structured outputs + graceful fallback patterns). Después la sección [Track A](#track-a--ai-systems--production-llm) tiene los 9 showcases del track.
+- **Si buscas consultoría B2B / fractional CTO** → empieza por [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) (SaaS B2B propio en producción AEAT real) o [`multichannel-inspection-tracking-case-study`](https://github.com/KamilSlodki/multichannel-inspection-tracking-case-study) (dual-channel email+WhatsApp con LLM multimodal). La sección [Track B](#track-b--b2b-delivery-engineering) tiene los 7 del track.
+- **Si quieres entender la disciplina cross-proyecto** que conecta los 10 showcases → [Sistema operativo común](#sistema-operativo-común): 5 protocolos de ingeniería + 5 capas documentales + engineering-playbook propio.
 - **Si vas con prisa** → escribe directamente a `solutions.satdata@gmail.com`.
 
 ---
