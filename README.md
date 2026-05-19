@@ -2,11 +2,11 @@
 
 **Por [Kamil Slodki](https://www.linkedin.com/in/kamilslodki/)** · Valencia, España · Remote-first
 
-**AI Systems Engineer · Production LLM + B2B Delivery Engineering. Sistemas AI / Data / Automation diseñados y operados en producción real para clientes B2B con disciplina institucional: 5 protocolos de ingeniería propios + 5 capas documentales replicadas cross-proyecto (arc42 + C4 + ADR + runbooks + postmortems) + engineering-playbook propio con 60+ archivos doctrinales evolucionados desde incidentes reales. 13+ proyectos privados, 13 showcases públicos cubriendo SaaS B2B compliance fiscal en producción AEAT, agentes LLM con guardrails, pipelines NLP con explicabilidad como invariante, sistemas cuantitativos multi-modelo, voice AI conversacional con SIP BYOC, plataformas dual-channel con LLM multimodal y autoevaluación regulada con structured outputs.**
+**AI Systems Engineer · Production LLM + B2B Delivery Engineering. Sistemas AI / Data / Automation diseñados y operados en producción real para clientes B2B con disciplina institucional: 5 protocolos de ingeniería propios + 5 capas documentales replicadas cross-proyecto (arc42 + C4 + ADR + runbooks + postmortems) + engineering-playbook propio con 60+ archivos doctrinales evolucionados desde incidentes reales. 13+ proyectos privados, 14 showcases públicos cubriendo SaaS B2B compliance fiscal en producción AEAT, agentes LLM con guardrails, pipelines NLP con explicabilidad como invariante, sistemas cuantitativos multi-modelo, voice AI conversacional con SIP BYOC, plataformas dual-channel con LLM multimodal y autoevaluación regulada con structured outputs.**
 
 [![Role](https://img.shields.io/badge/role-AI%20Systems%20Engineer%20%C2%B7%20Production%20LLM-blueviolet.svg)](#contacto)
 [![Track](https://img.shields.io/badge/tracks-A%20%C2%B7%20founding%2Fstaff%20AI%20%E2%80%A2%20B%20%C2%B7%20B2B%20fractional%20CTO-blue.svg)](#tracks-target)
-[![Showcases](https://img.shields.io/badge/showcases-13%20p%C3%BAblicos%20%C2%B7%2013%2B%20proyectos%20privados-success.svg)](#showcases)
+[![Showcases](https://img.shields.io/badge/showcases-14%20p%C3%BAblicos%20%C2%B7%2013%2B%20proyectos%20privados-success.svg)](#showcases)
 [![Engineering Doctrine](https://img.shields.io/badge/engineering%20doctrine-5%20protocols%20%C2%B7%2060%2B%20files-9cf.svg)](#sistema-operativo-com%C3%BAn)
 [![Documentation](https://img.shields.io/badge/documentation-arc42%20%C2%B7%20C4%20%C2%B7%20ADR%20%C2%B7%20runbooks%20%C2%B7%20postmortems-orange.svg)](#sistema-documental-replicado)
 [![Status](https://img.shields.io/badge/status-disponible%20para%20founding%20%2F%20staff%20AI%20%2F%20fractional%20CTO-brightgreen.svg)](#contacto)
@@ -17,7 +17,7 @@
 <tr>
 <td align="center" width="33%"><sub>SISTEMA OPERATIVO DOCTRINAL</sub><br/><b>5 protocolos · 5 capas documentales</b><br/><sub>replicados cross-proyecto · evolucionados desde incidentes reales</sub></td>
 <td align="center" width="33%"><sub>LLM EN PRODUCCIÓN REAL</sub><br/><b>Voice agents · text extraction · structured outputs</b><br/><sub>6 LLM agents iPaaS · 2 motores voice AI · LLM multimodal text+audio · graceful fallback patterns</sub></td>
-<td align="center" width="33%"><sub>DELIVERY VERIFICABLE</sub><br/><b>13 showcases públicos · 13+ proyectos privados</b><br/><sub>7 case-studies cliente anonimizados bajo NDA · 6 productos propios + framework metodológico</sub></td>
+<td align="center" width="33%"><sub>DELIVERY VERIFICABLE</sub><br/><b>14 showcases públicos · 13+ proyectos privados</b><br/><sub>7 case-studies cliente anonimizados bajo NDA · 7 productos propios + framework metodológico</sub></td>
 </tr>
 </table>
 
@@ -31,7 +31,7 @@
 
 - **Si vienes por una posición founding engineer / staff AI** → empieza por [`ipaas-automation-engineer-case-study`](https://github.com/KamilSlodki/ipaas-automation-engineer-case-study) (6 LLM agents en producción con guardrails) o [`regulated-self-assessment-platform-case-study`](https://github.com/KamilSlodki/regulated-self-assessment-platform-case-study) (LLM con structured outputs + graceful fallback patterns). Después la sección [Track A](#track-a--ai-systems--production-llm) tiene los 9 showcases del track.
 - **Si buscas consultoría B2B / fractional CTO** → empieza por [`selloqr-showcase`](https://github.com/KamilSlodki/selloqr-showcase) (SaaS B2B propio en producción AEAT real) o [`multichannel-inspection-tracking-case-study`](https://github.com/KamilSlodki/multichannel-inspection-tracking-case-study) (dual-channel email+WhatsApp con LLM multimodal). La sección [Track B](#track-b--b2b-delivery-engineering) tiene los 7 del track.
-- **Si quieres entender la disciplina cross-proyecto** que conecta los 12 showcases → [Sistema operativo común](#sistema-operativo-común): 5 protocolos de ingeniería + 5 capas documentales + engineering-playbook propio.
+- **Si quieres entender la disciplina cross-proyecto** que conecta los 14 showcases → [Sistema operativo común](#sistema-operativo-común): 5 protocolos de ingeniería + 5 capas documentales + engineering-playbook propio.
 - **Si vas con prisa** → escribe directamente a `solutions.satdata@gmail.com`.
 
 ---
@@ -67,6 +67,7 @@ Sistemas donde el componente AI (LLM, NLP, ML) es protagonista de la arquitectur
 | [`regulated-document-intake-platform-case-study`](https://github.com/KamilSlodki/regulated-document-intake-platform-case-study) | Plataforma SaaS B2B de automatización de procesos empresariales con captura documental multimodal + OCR engineering resiliente (claim atómico SQL + watchdog APScheduler + semáforo per-worker · 1 service por tipo de documento) + cross-validation automática + PII encryption Fernet + blind index SHA256 para exact-match sin desencriptar. 17 invariantes documentadas + Threat Model STRIDE + Disaster Recovery RTO 4-8h. | FastAPI · React 19 · PostgreSQL · Tesseract · Fernet · APScheduler | En producción · workflow visual activo |
 | [`business-intelligence-platform-with-llm-tools-case-study`](https://github.com/KamilSlodki/business-intelligence-platform-with-llm-tools-case-study) | LLM agent en producción con catálogo cerrado de 13 tools tipadas Pydantic (sin SQL libre · BD aislada read-only · statement timeout) + anti-hallucination con tool dedicada para agregados + cost engineering por tier de LLM. Dashboard analytics multi-fuente complementario con masking PII inline + autorización app-level. Aislamiento absoluto entre subsistemas del mismo cliente. | FastAPI · Postgres · Next.js · ECharts · LLM tiered | LLM agent producción · dashboard MVP activo |
 | [`sanctionverify-showcase`](https://github.com/KamilSlodki/sanctionverify-showcase) | Plataforma multi-tenant trade compliance con motor de matching fuzzy ensemble multi-algoritmo (RapidFuzz token_set_ratio + Soundex + Metaphone) + oracle scoring multi-feature con reason codes auditables · NLP keyword-based de eventos geopolíticos (negation detection + source credibility) · Prophet time-series forecasting con uncertainty bands para conflict-futures por corredor · optimización rutas Pareto multi-criteria · Haversine + buffer expansion dinámico para impacto geográfico · NO LLM como decisor (explicabilidad como invariante regulatoria) · Integrated Risk Decision Engine consolida N1+N2+N3+Insurance. | FastAPI · Postgres · Next.js · RapidFuzz · Prophet · OpenTelemetry | Proyecto técnico avanzado |
+| [`fourier-art-encoder-showcase`](https://github.com/KamilSlodki/fourier-art-encoder-showcase) | Pipeline de **AI creative engineering** con representación matemática explícita: imágenes → Series Fourier 2D sparsas top-K con radial ordering → reconstrucción determinista verificable PSNR/SSIM + fórmula matemática `.txt` humanamente legible + 12 estilos visuales composables (epicycles · cyberpunk · vaporwave · particles · spectrum · terminal · combined · nebula · stipple · contours · equation · yeganeh) · representaciones complementarias Canny+Fourier (contornos) y SIREN (Implicit Neural Representation) · OCR-to-animation con pytesseract + pix2tex. Patrón opuesto a black-box AI: **explicabilidad como invariante**. | Python · NumPy · SciPy · OpenCV · Pillow · Typer | Investigación activa |
 
 → **Available for founding engineer / staff AI roles** — `solutions.satdata@gmail.com` · [LinkedIn](https://www.linkedin.com/in/kamilslodki/)
 
@@ -93,7 +94,7 @@ Casos donde la entrega completa a cliente B2B real es el centro: delivery cerrad
 
 ## Sistema operativo común
 
-Los 12 showcases comparten un mismo sistema operativo de ingeniería, replicado y evolucionado cross-proyecto a lo largo de 13+ proyectos del ecosistema. La documentación es **activo de primera clase, no afterthought**.
+Los 14 showcases comparten un mismo sistema operativo de ingeniería, replicado y evolucionado cross-proyecto a lo largo de 13+ proyectos del ecosistema. La documentación es **activo de primera clase, no afterthought**.
 
 ### 5 protocolos de ingeniería
 
