@@ -2,11 +2,11 @@
 
 **Por [Kamil Slodki](https://www.linkedin.com/in/kamilslodki/)** · Valencia, España · Remote-first
 
-**AI Systems Engineer · Production LLM + B2B Delivery Engineering. Sistemas AI / Data / Automation diseñados y operados en producción real para clientes B2B con disciplina institucional: 5 protocolos de ingeniería propios + 5 capas documentales replicadas cross-proyecto (arc42 + C4 + ADR + runbooks + postmortems) + engineering-playbook propio con 60+ archivos doctrinales evolucionados desde incidentes reales. 13+ proyectos privados, 14 showcases públicos cubriendo SaaS B2B compliance fiscal en producción AEAT, agentes LLM con guardrails, pipelines NLP con explicabilidad como invariante, sistemas cuantitativos multi-modelo, voice AI conversacional con SIP BYOC, plataformas dual-channel con LLM multimodal y autoevaluación regulada con structured outputs.**
+**AI Systems Engineer · Production LLM + B2B Delivery Engineering. Sistemas AI / Data / Automation diseñados y operados en producción real para clientes B2B con disciplina institucional: 5 protocolos de ingeniería propios + 5 capas documentales replicadas cross-proyecto (arc42 + C4 + ADR + runbooks + postmortems) + engineering-playbook propio con 60+ archivos doctrinales evolucionados desde incidentes reales. 14 showcases públicos cubriendo SaaS B2B compliance fiscal en producción AEAT, agentes LLM con guardrails, pipelines NLP con explicabilidad como invariante, sistemas cuantitativos multi-modelo, voice AI conversacional con SIP BYOC, plataformas dual-channel con LLM multimodal, autoevaluación regulada con structured outputs y trade compliance multi-tenant con 4 motores AI distintos.**
 
 [![Role](https://img.shields.io/badge/role-AI%20Systems%20Engineer%20%C2%B7%20Production%20LLM-blueviolet.svg)](#contacto)
 [![Track](https://img.shields.io/badge/tracks-A%20%C2%B7%20founding%2Fstaff%20AI%20%E2%80%A2%20B%20%C2%B7%20B2B%20fractional%20CTO-blue.svg)](#tracks-target)
-[![Showcases](https://img.shields.io/badge/showcases-14%20p%C3%BAblicos%20%C2%B7%2013%2B%20proyectos%20privados-success.svg)](#showcases)
+[![Showcases](https://img.shields.io/badge/showcases-14%20p%C3%BAblicos-success.svg)](#showcases)
 [![Engineering Doctrine](https://img.shields.io/badge/engineering%20doctrine-5%20protocols%20%C2%B7%2060%2B%20files-9cf.svg)](#sistema-operativo-com%C3%BAn)
 [![Documentation](https://img.shields.io/badge/documentation-arc42%20%C2%B7%20C4%20%C2%B7%20ADR%20%C2%B7%20runbooks%20%C2%B7%20postmortems-orange.svg)](#sistema-documental-replicado)
 [![Status](https://img.shields.io/badge/status-disponible%20para%20founding%20%2F%20staff%20AI%20%2F%20fractional%20CTO-brightgreen.svg)](#contacto)
@@ -17,7 +17,7 @@
 <tr>
 <td align="center" width="33%"><sub>SISTEMA OPERATIVO DOCTRINAL</sub><br/><b>5 protocolos · 5 capas documentales</b><br/><sub>replicados cross-proyecto · evolucionados desde incidentes reales</sub></td>
 <td align="center" width="33%"><sub>LLM EN PRODUCCIÓN REAL</sub><br/><b>Voice agents · text extraction · structured outputs</b><br/><sub>6 LLM agents iPaaS · 2 motores voice AI · LLM multimodal text+audio · graceful fallback patterns</sub></td>
-<td align="center" width="33%"><sub>DELIVERY VERIFICABLE</sub><br/><b>14 showcases públicos · 13+ proyectos privados</b><br/><sub>7 case-studies cliente anonimizados bajo NDA · 7 productos propios + framework metodológico</sub></td>
+<td align="center" width="33%"><sub>DELIVERY VERIFICABLE</sub><br/><b>14 showcases públicos</b><br/><sub>7 case-studies cliente anonimizados bajo NDA · 6 productos propios + 1 framework metodológico</sub></td>
 </tr>
 </table>
 
@@ -94,7 +94,7 @@ Casos donde la entrega completa a cliente B2B real es el centro: delivery cerrad
 
 ## Sistema operativo común
 
-Los 14 showcases comparten un mismo sistema operativo de ingeniería, replicado y evolucionado cross-proyecto a lo largo de 13+ proyectos del ecosistema. La documentación es **activo de primera clase, no afterthought**.
+Los 14 showcases comparten un mismo sistema operativo de ingeniería, replicado y evolucionado cross-proyecto. La documentación es **activo de primera clase, no afterthought**.
 
 ### 5 protocolos de ingeniería
 
